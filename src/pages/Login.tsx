@@ -2,11 +2,45 @@ const Login = () => {
   return (
     <div className="grid grid-cols-2">
       {/* Left Column - Ship Now Introduction */}
-      <div className="w-full h-full border-2 border-orange-500 bg-[#8c8b94]">
+      <div className="w-full h-full border-2 border-orange-500 bg-[#856DF3]">
         {/* Image and Text Container */}
-        <div className="flex items-center justify-center">
-          <img src="./src/assets/Ship_Now_Logo.png" alt="Ship Now Logo" className="h-6 w-5" />
-          <p className="text-white text-center mt-4">Ship Now</p>
+        <div className="flex items-center justify-center mt-24 mb-20">
+          <img
+            src="./src/assets/Ship_Now_Logo.png"
+            alt="Ship Now Logo"
+            className="h-8 w-7"
+          />
+          <p className="text-center mt-4 italic font-black text-3xl text-white uppercase">
+            ShipNow
+          </p>
+        </div>
+
+        {/* Double Images Container */}
+        <div className="relative flex items-center justify-center">
+          <img
+            src="./src/assets/images/Ship_Now_Image_1.jpg"
+            alt="Ship Now Image 1"
+            className="w-102.5 h-96.5 mt-4 rounded-lg"
+          />
+
+          {/* Child Image Container */}
+          <div>
+            <img
+              src="./src/assets/images/Ship_Now_Image_2.jpg"
+              alt="Ship Now Image 2"
+              className="w-[178.46px] h-57 mt-4 -top-15 left-110 absolute rounded-lg"
+            />
+          </div>
+        </div>
+
+        {/* Welcome To Ship Now */}
+        <div className="text-center my-20">
+          <h2 className="text-4xl text-white font-extrabold">
+            Welcome To ShipNow
+          </h2>
+          <p className="text-white mt-2">
+            Manage your shipments, fleet, and warehouse in one smart dashboard.
+          </p>
         </div>
       </div>
 
