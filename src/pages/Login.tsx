@@ -1,3 +1,5 @@
+import LoginForm from "../components/form/LoginForm";
+
 const Login = () => {
   return (
     <div className="grid grid-cols-2">
@@ -52,9 +54,11 @@ const Login = () => {
           className="mx-auto mt-60 w-10 h-10"
         />
         <h2 className="text-center mt-8 text-3xl font-bold">Welcome Back</h2>
-        <p className="text-center mt-4 text-[#757575] text-sm">
+        <p className="text-center mt-4 text-[#757575] text-sm mb-8">
           Log in to continue managing your logistics with ShipNow
         </p>
+
+        <LoginForm />
       </div>
     </div>
   );
