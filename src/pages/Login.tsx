@@ -47,17 +47,20 @@ const Login = () => {
       </div>
 
       {/* Right Column - Login Form */}
-      <div className="w-full h-full border-2 border-red-500">
-        <img
-          src="./src/assets/Ship_Now_Logo_2.png"
-          alt="Ship Now 2nd Logo"
-          className="mx-auto mt-60 w-10 h-10"
-        />
-        <h2 className="text-center mt-8 text-3xl font-bold">Welcome Back</h2>
-        <p className="text-center mt-4 text-[#757575] text-sm mb-8">
-          Log in to continue managing your logistics with ShipNow
-        </p>
-
+      <div className="w-3/4 h-1/12 mx-auto my-20">
+        {/* Text Container */}
+        <div className="m-10">
+          <img
+            src="./src/assets/Ship_Now_Logo_2.png"
+            alt="Ship Now 2nd Logo"
+            className="mx-auto mt-20 w-10 h-10"
+          />
+          <h2 className="text-center mt-8 text-3xl font-bold">Welcome Back</h2>
+          <p className="text-center mt-4 text-[#757575] text-sm mb-8">
+            Log in to continue managing your logistics with ShipNow
+          </p>
+        </div>
+        {/* Form */}
         <LoginForm />
       </div>
     </div>
