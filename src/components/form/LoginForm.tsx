@@ -1,8 +1,9 @@
 /* eslint-disable react-hooks/incompatible-library */
+import { Check, Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";
-import { EyeOff, Eye, Check } from "lucide-react";
+import { useNavigate } from "react-router";
 
 type Inputs = {
   email: string;
@@ -25,8 +26,12 @@ const LoginForm = () => {
 
   const rememberMe = watch("rememberMe");
 
+  const navigate = useNavigate();
+
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data);
+
+    navigate("/dashboard");
   };
 
   return (
