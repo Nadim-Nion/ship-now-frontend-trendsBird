@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className="grid grid-cols-2">
       {/* Left Column - Ship Now Introduction */}
-      <div className="w-full h-full border-2 border-orange-500 bg-[#856DF3]">
+      <div className="w-full h-full bg-[#856DF3]">
         {/* Image and Text Container */}
         <div className="flex items-center justify-center mt-24 mb-20">
           <img
