@@ -1,21 +1,15 @@
-import React from 'react'
 import { DollarSign, Monitor, Package } from 'lucide-react'
-import { COLOR, FONT } from './theme/tokens'
+import { COLOR, FONT } from '../theme/tokens'
+import Sidebar from '../components/layout/Sidebar'
+import Header from '../components/layout/Header'
+import StatCard from '../components/common/StatCard'
+import ShipmentTypeCard from '../components/widgets/ShipmentTypeCard'
+import ShipmentStatisticCard from '../components/widgets/ShipmentStatisticCard'
+import ProfitSummaryCard from '../components/widgets/ProfitSummaryCard'
+import ProductCategoriesCard from '../components/widgets/ProductCategoriesCard'
+import ShipmentRouteCard from '../components/widgets/ShipmentRouteCard'
+import ShipmentAlertsCard from '../components/widgets/ShipmentAlertsCard'
 
-import Sidebar from './components/layout/Sidebar'
-import Header from './components/layout/Header'
-import StatCard from './components/common/StatCard'
-import ShipmentTypeCard from './components/widgets/ShipmentTypeCard'
-import ShipmentStatisticCard from './components/widgets/ShipmentStatisticCard'
-import ProfitSummaryCard from './components/widgets/ProfitSummaryCard'
-import ProductCategoriesCard from './components/widgets/ProductCategoriesCard'
-import ShipmentRouteCard from './components/widgets/ShipmentRouteCard'
-import ShipmentAlertsCard from './components/widgets/ShipmentAlertsCard'
-
-// This file's only job is layout composition: which widgets exist
-// and how they're arranged in the grid. It should never contain
-// chart logic, mock data, or style-token definitions — those live
-// in their own files so this stays readable at a glance.
 const Dashboard = () => {
   return (
     <div
