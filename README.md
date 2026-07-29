@@ -12,6 +12,7 @@ A scalable and production-ready frontend starter template built with React, Type
 - React Router – Client-side routing for navigation
 - Redux Toolkit – Simplified global state management
 - TypeScript – Strongly typed JavaScript
+- Recharts - Chart Library
 
 ---
 

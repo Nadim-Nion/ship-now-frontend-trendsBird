@@ -1,4 +1,8 @@
 import LoginForm from "../components/form/LoginForm";
+import ShipNowLogo1 from "../assets/Ship_Now_Logo.png"
+import ShipNowLogo2 from "../assets/Ship_Now_Logo_2.png"
+import Image1 from "../assets/images/Ship_Now_Image_1.jpg";
+import Image2 from "../assets/images/Ship_Now_Image_2.jpg"
 
 const Login = () => {
   return (
@@ -9,7 +13,8 @@ const Login = () => {
         {/* Logo */}
         <div className="flex items-center justify-center gap-3  lg:mb-20 mb-14">
           <img
-            src="./src/assets/Ship_Now_Logo.png"
+            // src="./src/assets/Ship_Now_Logo.png"
+            src={ShipNowLogo1}
             alt="Ship Now Logo"
             className="w-8 h-8 md:w-10 md:h-10"
           />
@@ -22,7 +27,8 @@ const Login = () => {
         {/* Images */} {/* h-8 w-7 */}
         <div className="relative w-fit">
           <img
-            src="./src/assets/images/Ship_Now_Image_1.jpg"
+            // src="./src/assets/images/Ship_Now_Image_1.jpg"
+            src={Image1}
             alt="Ship Now"
             className="
             w-[243px]
@@ -34,7 +40,8 @@ const Login = () => {
           />
 
           <img
-            src="./src/assets/images/Ship_Now_Image_2.jpg"
+            // src="./src/assets/images/Ship_Now_Image_2.jpg"
+            src={Image2}
             alt="Ship Now"
             className="
             absolute
@@ -79,7 +86,8 @@ const Login = () => {
       >
         <div className="w-full max-w-[420px]">
           <img
-            src="./src/assets/Ship_Now_Logo_2.png"
+            // src="./src/assets/Ship_Now_Logo_2.png"
+            src={ShipNowLogo2}
             alt="logo"
             className="mx-auto h-10 w-10"
           />
