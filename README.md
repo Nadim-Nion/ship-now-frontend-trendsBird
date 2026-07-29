@@ -6,6 +6,18 @@ A scalable and production-ready frontend starter template built with React, Type
 
 ---
 
+## Project Resources
+
+**Live Link**: https://animated-horse-7508d5.netlify.app/login
+
+**Screen Status**:
+
+- Login: Completed (Responsive for all screens)
+- Dashboard: Partial (Only Large Screen)
+- Other Screens: Not Attempted
+
+---
+
 ## 📦 Tech Stack
 
 - React – Library for building user interfaces
