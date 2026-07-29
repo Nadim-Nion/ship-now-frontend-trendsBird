@@ -1,15 +1,16 @@
+import ShipNowLogo1 from "../assets/Ship_Now_Logo.png";
+import ShipNowLogo2 from "../assets/Ship_Now_Logo_2.png";
 import LoginForm from "../components/form/LoginForm";
-import ShipNowLogo1 from "../assets/Ship_Now_Logo.png"
-import ShipNowLogo2 from "../assets/Ship_Now_Logo_2.png"
-import Image1 from "../assets/images/Ship_Now_Image_1.jpg";
-import Image2 from "../assets/images/Ship_Now_Image_2.jpg"
+// import Image1 from "../assets/images/Ship_Now_Image_1.jpg";
+// import Image2 from "../assets/images/Ship_Now_Image_2.jpg"
+import Image1 from "../assets/images/Ship_Now_Image_1.webp";
+import Image2 from "../assets/images/Ship_Now_Image_2.webp";
 
 const Login = () => {
   return (
     <div className="grid min-h-screen grid-cols-1 lg:grid-cols-2 overflow-hidden">
       {/* Left Section */}
       <section className="bg-[#856DF3] flex flex-col items-center justify-center px-6 py-12 md:px-10 lg:px-12 xl:px-16">
-
         {/* Logo */}
         <div className="flex items-center justify-center gap-3  lg:mb-20 mb-14">
           <img
@@ -23,7 +24,6 @@ const Login = () => {
             ShipNow
           </h2>
         </div>
-
         {/* Images */} {/* h-8 w-7 */}
         <div className="relative w-fit">
           <img
@@ -56,7 +56,6 @@ const Login = () => {
             "
           />
         </div>
-
         {/* Text */}
         <div className="mt-12 text-center max-w-md">
           <h1 className="text-white font-bold text-3xl md:text-4xl xl:text-[42px]">
