@@ -6,7 +6,7 @@ A scalable and production-ready frontend starter template built with React, Type
 
 ---
 
-## Project Resources
+## 🗂️ Project Resources
 
 **Live Link**: https://animated-horse-7508d5.netlify.app/login
 
